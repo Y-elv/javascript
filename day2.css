@@ -1,0 +1,12 @@
+body{
+    color: rgb(238, 19, 19);
+}
+#view{
+    display: none;
+}
+@media(max-width:500px){
+body{
+    color: blue;
+    background-color: blueviolet;
+}
+}
