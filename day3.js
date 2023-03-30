@@ -4,7 +4,7 @@ savu.addEventListener("click",()=>{
 })
 
 savu.addEventListener("dblclick",()=>{
-    alert("hello double")
+    // alert("hello double")
 })
 const form=document.getElementById("myform");
 
@@ -13,8 +13,12 @@ form.addEventListener("submit",(event)=>{
     let text=form.username.value;
     let password=form.pswd.value;
      let total=text +' ' + 'and' + ' ' + password
-     alert(total)
-    form.reset();// then to clear your code 
+    //  alert(total)
+
+    if(text == ""){
+        alert("plz fill")
+    }
+    form.reset();   // then to clear your code 
 })
 
 
