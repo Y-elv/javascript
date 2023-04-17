@@ -11,14 +11,15 @@ const y = setInterval(()=>{
     },3000)
 
     x.addEventListener("click",()=>clearInterval(y))
-let a="data types ";
+let a="data \"hello\" types ";
 let b=2023 ;
-let c= "07" ;
+let c= "0\7" ;
 let d=false ;
 let e=1.5 ;
 let f= 10. ;
-console.log(typeof(a));
-console.log(b);
+console.log((a));
+console.log(typeof(b));
+console.log((b));
 console.log(c);
 console.log(d);
 console.log(e);
