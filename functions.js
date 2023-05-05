@@ -26,6 +26,7 @@ function multiplication(){
     console.log(1*1)
     
 };
+
 // multiplication();
 function phonecall(name){
     // console.log("user enter nbr 1 ")
